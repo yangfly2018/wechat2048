@@ -1,21 +1,55 @@
 {
+  "_comment_libVersion": "小游戏基础库版本号，指定项目使用的基础库版本",
   "libVersion": "3.15.0",
+  
+  "_comment_projectname": "项目名称，在微信开发者工具中显示的项目名称",
   "projectname": "minigame-1",
+  
+  "_comment_setting": "项目编译设置，包含多个开发相关的配置选项",
   "setting": {
+    "_comment_urlCheck": "是否检查安全域名配置，false 表示不检查，方便开发调试",
     "urlCheck": false,
+    
+    "_comment_coverView": "是否使用原生组件覆盖，如 video、map 等原生组件的层级处理",
     "coverView": false,
+    
+    "_comment_lazyloadPlaceholderEnable": "是否启用懒加载占位符，用于自定义组件的懒加载优化",
     "lazyloadPlaceholderEnable": false,
+    
+    "_comment_skylineRenderEnable": "是否启用 Skyline 渲染引擎，微信新一代渲染引擎",
     "skylineRenderEnable": false,
+    
+    "_comment_preloadBackgroundData": "是否预加载后台数据，提升页面切换时的数据加载速度",
     "preloadBackgroundData": false,
+    
+    "_comment_autoAudits": "是否启用自动审计，用于代码质量检测",
     "autoAudits": false,
+    
+    "_comment_useApiHook": "是否启用 API Hook 功能，用于拦截和调试 API 调用",
     "useApiHook": true,
+    
+    "_comment_showShadowRootInWxmlPanel": "是否在 Wxml 面板中显示 shadow-root，用于调试自定义组件内部结构",
     "showShadowRootInWxmlPanel": false,
+    
+    "_comment_useStaticServer": "是否使用静态文件服务器，提升本地开发时的文件加载效率",
     "useStaticServer": false,
+    
+    "_comment_useLanDebug": "是否启用局域网调试，允许通过局域网 IP 访问调试",
     "useLanDebug": false,
+    
+    "_comment_showES6CompileOption": "是否显示 ES6 编译选项，控制是否展示 ES6 转 ES5 的编译设置",
     "showES6CompileOption": false,
+    
+    "_comment_compileHotReLoad": "是否启用编译热重载，文件保存后自动重新编译",
     "compileHotReLoad": false,
+    
+    "_comment_bigPackageSizeSupport": "是否启用大包支持，用于支持更大的代码包体积（最高可到 4MB）",
     "bigPackageSizeSupport": false,
+    
+    "_comment_checkInvalidKey": "是否检查无效的 key 值，帮助发现 setData 时传入的无效数据路径",
     "checkInvalidKey": true,
+    
+    "_comment_ignoreDevUnusedFiles": "是否忽略开发环境下未使用的文件，减少编译时间和包体积",
     "ignoreDevUnusedFiles": true
   }
 }

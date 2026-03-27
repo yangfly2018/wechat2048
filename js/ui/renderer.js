@@ -21,7 +21,9 @@ export default class Renderer {
     
     // 网格起始位置（居中）
     this.gridX = (SCREEN_WIDTH - this.gridWidth) / 2;
-    this.gridY = this.headerHeight + this.padding;
+    // 网格位置，整体下移一些
+    const totalHeight = this.headerHeight + this.gridWidth + this.padding * 2;
+    this.gridY = this.headerHeight + (SCREEN_HEIGHT - totalHeight) / 2 + 50;
   }
 
   /**
